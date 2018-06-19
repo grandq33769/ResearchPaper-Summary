@@ -25,7 +25,7 @@
 ### 	Ensemble Methods
 - Memory usage will scale with the number of sessions, which is highly undesirable.
 - Accuracy Weighted Ensembles & Life-long Machine Learning: Automatically decide whether a sub-network should be removed or added to the ensemble
-    - `PathNet`  : Since entire portions of the network are sequentially frozen as new tasks are learned, there is a risk of PathNet losing its ability to learn once the maximum capacity is reached.
+- `PathNet`  : Since entire portions of the network are sequentially frozen as new tasks are learned, there is a risk of PathNet losing its ability to learn once the maximum capacity is reached.
 - Accessing that output layer during prediction time requires a priori information on which session the model needs to access.
 	
 ### 	Rehearsal Methods
@@ -43,7 +43,7 @@
 - The second hidden layer (FEL-layer) has a higher capacity than the first fully-connected layer, but the weights are sparse and remain fixed through training.
 
 ## Reason of occuring  catastrophic forgetting
-`Catastrophic forgetting in neural networks occurs because of the stability-plasticity dilemma`
+`Catastrophic forgetting in neural networks occurs because of the stability-plasticity dilemma.`
 
 ## Approaches of solving catastrophic forgetting
 1. To try to keep new and old representations separate, which can be done using distributed models, regularization, and ensembling.
